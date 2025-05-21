@@ -47,14 +47,14 @@ const Hero: React.FC<HeroProps> = ({ onGetStarted }) => {
                   <div className="text-gray-400 text-sm ml-2">AI Assistant</div>
                 </div>
                 <div className="p-4 text-left">
-                  <div className="text-sm text-green-400 mb-2">> Request advanced LLM analysis</div>
+                  <div className="text-sm text-green-400 mb-2">{"> Request advanced LLM analysis"}</div>
                   <div className="text-white mb-4">
                     <p className="mb-2">Analyzing market data using advanced language model...</p>
                     <div className="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
                       <div className="bg-primary-500 h-full w-3/4 rounded-full"></div>
                     </div>
                   </div>
-                  <div className="text-sm text-green-400 mb-2">> Generate comprehensive report</div>
+                  <div className="text-sm text-green-400 mb-2">{"> Generate comprehensive report"}</div>
                   <div className="text-white mb-4">
                     <p className="animate-pulse">Creating detailed insights from analysis...</p>
                   </div>
